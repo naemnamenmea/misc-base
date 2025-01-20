@@ -1,3 +1,7 @@
+# custom user gitignore list
+/.vscode
+build/
+
 # Prerequisites
 *.d
 
