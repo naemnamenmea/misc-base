@@ -12,7 +12,7 @@
 #include <vector>
 
 template <class Container>
-std::string Join(const Container& container, char delimiter);
+std::string Join(const Container& container, const std::string_view delimiter);
 
 template <typename T>
 std::ostream& operator<<(std::ostream& os, const std::vector<std::vector<T>>& v)
